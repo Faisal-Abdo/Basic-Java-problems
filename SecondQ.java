@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SecondQ {
     public static void main(String[] args){
     //System.out.println("Price:" + price);
+        // printing days
         String dayName="";
        
         for (int day = 0; day <= 7; day++) {
