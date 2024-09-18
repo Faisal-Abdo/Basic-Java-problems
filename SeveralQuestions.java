@@ -1,10 +1,9 @@
 import java.util.Scanner;
-import java.util.*;
-import java.util.ArrayList;
 
-public class sixth {
+public class SeveralQuestions {
     public static void main(String[] args) {
-        /* Q1: int count= 0;
+        /* Q. Sum of Even Numbers
+        int count= 0;
         for(int i = 1; i <= 50; i++) {
             if(i%2==0){
                 count+=i;
@@ -13,12 +12,14 @@ public class sixth {
         }
         System.out.println("the sum of even numbers 1-50 : "+ count); */
 
-        /* Q2: Scanner myObj = new Scanner(System.in);
+        /* Q. Multiplication Table
+        Scanner myObj = new Scanner(System.in);
         int input  = myObj.nextInt();
         for(int i = 1; i <= 12; i++){
             System.out.println(input*i);
         } */
 
+        // attempt of Factorial Calculation
         Scanner myObj = new Scanner(System.in);
         int input  = myObj.nextInt();
         int i = 0;
@@ -36,7 +37,9 @@ public class sixth {
 
         }
         System.out.println(result);
-      /*  ArrayList<Character> charofa = new ArrayList<>();
+
+        /* attempt for Counting Vowels in a String
+        ArrayList<Character> charofa = new ArrayList<>();
         int a,e,o,u,i;
         String word = "Oman is a land of heritage";
         for (char c : word.toCharArray()) {

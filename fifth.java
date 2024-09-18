@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class fifth {
     public static void main(String[] args) {
-
+        //calculates the sum of all positive integers question
         ArrayList<Integer> positive = new ArrayList<>();
         int j = 0;
         System.out.println("Enter positive numbers: ");
