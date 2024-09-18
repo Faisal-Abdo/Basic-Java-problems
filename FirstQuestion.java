@@ -1,5 +1,5 @@
 
-public class FirstSession {
+public class FirstQuestion {
     // prints all even numbers between 1 and 20
         public static void main(String[] args) {
             for (int i = 0; i <= 20; i++) {
