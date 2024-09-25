@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class SubstringBeginEnd {
     public static void main(String[] args) {
-        without2("bu");
+        Scanner obj = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String Str = obj.nextLine();
+        without2(Str);
     }
     public static String without2(String str){
         String begin = str.substring(0, 2);
