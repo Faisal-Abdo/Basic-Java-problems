@@ -7,9 +7,9 @@ public class RemoveChar {
         String input1 = obj.nextLine();
         System.out.print("enter a character you want to remove: ");
         char inputChar = obj.next().charAt(0);
-        RemoveCharacter(input1,inputChar);
+        removeCharacter(input1,inputChar);
     }
-    public static void RemoveCharacter(String str, char ch){
+    public static removeCharacter(String str, char ch){
         char[] stringtoArray = str.toCharArray();
         StringBuilder newString = new StringBuilder(); //Class used for creating and manipulating mutable strings
         for(char x: stringtoArray){
@@ -17,4 +17,5 @@ public class RemoveChar {
                 newString.append(x);
             }}
         System.out.println(newString);
+        return newString;
     }}
