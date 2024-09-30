@@ -12,9 +12,9 @@ public class SummingDigitsofString {
         int sum = 0;
         for(char a: charArray){
             if(Character.isDigit(a)) {
-                String chartoString = Character.toString(a);
-                int stringtoInt = Integer.parseInt(chartoString);
-                sum+=stringtoInt;
+                String charToString = Character.toString(a);
+                int stringToInt = Integer.parseInt(charToString);
+                sum+=stringToInt;
             }}
         System.out.println("The sum of digits within the string: "+ sum);
         }
