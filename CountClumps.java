@@ -6,14 +6,14 @@ public class CountClumps {
         System.out.println("Enter your preferred size of array: ");
         int size1 = obj.nextInt();
         System.out.println("Enter " + size1 + " integers: ");
-        int[] Array = new int[size1];
+        int[] array = new int[size1];
         for (int i = 0; i < size1; i++
         ) {
             if (obj.hasNextInt()) {
                 Array[i] = obj.nextInt();
             }
         }
-        countClumps(Array);
+        countClumps(array);
     }
 
     public static int[] countClumps(int[] array) {
