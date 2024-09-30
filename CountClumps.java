@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CountClumps {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        System.out.println("Enter your preferred size of 1st array: ");
+        System.out.println("Enter your preferred size of array: ");
         int size1 = obj.nextInt();
         System.out.println("Enter " + size1 + " integers: ");
         int[] Array = new int[size1];
