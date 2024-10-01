@@ -21,9 +21,9 @@ public class Front11 {
                 Array2[i] = obj.nextInt();
             }
         }
-        front11(Array1,Array2);
+        findingFront(Array1,Array2);
     }
-        public static int[] front11(int[] array, int[] array1){
+        public static int[] findingFront(int[] array, int[] array1){
             if(array.length>0 && array1.length>0){
                 System.out.println("["+array[0]+","+array1[0]+"]");
             } else if (array.length>0 && array1.length<1) {
