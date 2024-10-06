@@ -7,7 +7,7 @@ public class SubstringRemoval {
         String input1 = obj.nextLine();
         System.out.print("enter a substring you want to remove: ");
         String input2 = obj.nextLine();
-        String newString = input1.replaceAll(input2,"");
+        String newString = input1.replaceAll((?i)+input2,"");
         System.out.println(newString);
     }
 }
