@@ -21,9 +21,9 @@ public class CommonEnd {
                 Array2[i] = obj.nextInt();
             }
         }
-        CommonEnd(Array1,Array2);
+        findCommonEnd(Array1,Array2);
     }
-    public static int[] CommonEnd(int[] array, int[] array1){
+    public static int[] findCommonEnd(int[] array, int[] array1){
         if(array.length>0 && array1.length>0){
             if(array[0]==array1[0] || array[array.length-1]==array1[array1.length-1]){
                 System.out.println("true");
