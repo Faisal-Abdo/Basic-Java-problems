@@ -10,8 +10,6 @@ public class StackReversal {
 
         Stack<String> reverse = new Stack<>();
         char[] stringTOChar = word.toCharArray();
-        /*String str = new String(stringTOChar);
-        String con  = Arrays.toString(str); */
         String empty = "";
         for(char a: stringTOChar){
             reverse.push(Character.toString(a));
