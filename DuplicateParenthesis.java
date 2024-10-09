@@ -9,14 +9,14 @@ public class DuplicateParenthesis {
         Stack<Character> characterStack = new Stack<>();
         boolean stateDuplicate = false;
         for (Character a : stringToArray) {
-            if (a == ')') {
+            if (a == ')') {  //when ) is reached enter loop
                 int count = 0;
-                while (characterStack.peek() != '(') {
+                while (characterStack.peek() != '(') {  //check in between (...) for any elements
                     characterStack.pop();
                     count++;
                 }
-                characterStack.pop();
-                if (count == 0) {
+                characterStack.pop();  //delete the '('
+                if (count == 0) {   //if none elements then it is duplicate
                     stateDuplicate = true;
                     break;
                 }
