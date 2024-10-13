@@ -7,13 +7,13 @@ public class CommonCharacters {
         findCommon("Hello","World");
     }
     public static void findCommon(String word, String word1){
-        char[] StringToChar = word.toCharArray();
-        char[] StringToChar1 = word1.toCharArray();
+        char[] stringToChar = word.toCharArray();
+        char[] stringToChar1 = word1.toCharArray();
         Set<Character> set = new HashSet<>();
         Set<Character> set1 = new HashSet<>();
-        for(int i=0;i<StringToChar.length;i++){
-            set.add(StringToChar[i]);
-            set1.add(StringToChar1[i]);
+        for(int i=0;i<stringToChar.length;i++){
+            set.add(stringToChar[i]);
+            set1.add(stringToChar1[i]);
         }
         set.retainAll(set1);
         System.out.println(set);
