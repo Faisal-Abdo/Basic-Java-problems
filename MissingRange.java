@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 public class MissingRange {
     public static void main(String[] args) {
-        ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,3,5,7)); //in the case that there is one missing number
+        ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,3,5,7)); 
         Integer low = 1;
         Integer high = 10;
         findMissingNum(array, low, high);
